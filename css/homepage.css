@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/**----------------**/
+/*Navbar Starts*/
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 65px;
+}
+.navbar-logo {
+    position: absolute;
+    left: 0;
+    margin-left: 3rem;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.navbar-link-section {
+    position:absolute;
+    right: 0;
+    margin-right: 3rem;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.navbar-link:hover {
+    color: rgb(9, 255, 128);
+    transition: color 0.5s;
+}
+/*Navbar Ends*/
+/**----------------**/
